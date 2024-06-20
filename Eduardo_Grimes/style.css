@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #ff8000;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.categorias {
+    background-color: #f7f7f7;
+    padding: 1rem;
+    border: 50px solid #ddd;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 685px;
+    height: 180px;
+
+}
+
+.categorias h2 {
+    margin-top: 0;
+}
+
+.categorias ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.categorias li {
+    margin-bottom: 10px;
+}
+
+.categorias a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.categorias a:hover {
+    color: #23527c;
+}
+
+.productos {
+    background-color: #f7f7f7;
+    padding: 1rem;
+    border: 50px solid #ddd;
+    margin-bottom: 1rem;
+    width: 685px;
+
+}
+
+.productos h2 {
+    margin-top: 0;
+}
+
+.productos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.productos li {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productos img {
+    width: 165px;
+    height: 165px;
+    margin-bottom: 10px;
+}
+
+.productos h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.productos p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.productos button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.productos button:hover {
+    background-color: #23527c;
+}
+
+.carrito {
+    background-color: #f7f7f7;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    width: 585px;
+}
+
+.carrito h2 {
+    margin-top: 0;
+}
+
+.carrito ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carrito li {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrito img {
+    width: 165px;
+    height: 165px;
+    margin-bottom: 10px;
+}
+
+.carrito h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.carrito p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.carrito button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.carrito button:hover {
+    background-color: #23527c;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    clear: both;
+}
